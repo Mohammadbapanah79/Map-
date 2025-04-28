@@ -31,7 +31,7 @@ function isAjaxRequest()
 
 function dd($variable)
 {
-    echo "<pre style='color: red;background: black;z-index: 99999;position:relative;font-family: sans-serif;line-height: 1.4em;padding: 10px;border-radius: 5px;margin: 10px;border-left: 3px solid red'>";
+    echo "<pre style='color: red;background: black;z-index: 99999;position:relative;font-family: vazir;line-height: 1.4em;padding: 10px;border-radius: 5px;margin: 10px;border-left: 3px solid red;direction: ltr;text-align: left; '>";
     var_dump($variable);
     echo "</pre>";
 }
