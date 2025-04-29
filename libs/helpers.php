@@ -7,17 +7,18 @@ function getCurrentUrl()
 
 function diePage($msg)
 {
-    echo "<div style='padding: 30px;width: 80%;margin: 50px auto; background: #f9dede;border-radius: 5px; border: 1px solid #cca4a4;font-family: sans-serif'>$msg</div>";
+    echo "<div style='padding: 30px;width: 80%;margin: 50px auto; background: #f9dede;border-radius: 5px; border: 1px solid #cca4a4;font-family: vazir'>$msg</div>";
     die;
 }
-function redirect($url){
+function redirect($url)
+{
     header("Location: $url");
     die();
 }
 
-function message($msg,$cssClass = 'info')
+function message($msg, $cssClass = 'info')
 {
-    echo "<div class='$cssClass' style='padding: 20px;width: 80%;margin: 10px auto; color: #22bb33;border-radius: 5px; border: 1px solid #cca4a4;font-family: sans-serif'>$msg</div>";
+    echo "<div class='$cssClass' style='padding: 20px;width: 80%;margin: 10px auto; color: #22bb33;border-radius: 5px; border: 1px solid #cca4a4;font-family: vazir'>$msg</div>";
 }
 
 
